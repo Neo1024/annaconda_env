@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64",
+  "date": "2017-08-25",
+  "depends": [
+    "zlib 1.2.*"
+  ],
+  "files": [
+    "bin/libpng-config",
+    "bin/libpng16-config",
+    "bin/png-fix-itxt",
+    "bin/pngfix",
+    "include/libpng16/png.h",
+    "include/libpng16/pngconf.h",
+    "include/libpng16/pnglibconf.h",
+    "include/png.h",
+    "include/pngconf.h",
+    "include/pnglibconf.h",
+    "lib/libpng.a",
+    "lib/libpng.la",
+    "lib/libpng.so",
+    "lib/libpng16.a",
+    "lib/libpng16.la",
+    "lib/libpng16.so",
+    "lib/libpng16.so.16",
+    "lib/libpng16.so.16.30.0",
+    "lib/pkgconfig/libpng.pc",
+    "lib/pkgconfig/libpng16.pc"
+  ],
+  "fn": "libpng-1.6.30-1.tar.bz2",
+  "license": "libpng license",
+  "license_family": "Other",
+  "link": {
+    "source": "/home/xgli/anaconda3/pkgs/libpng-1.6.30-1",
+    "type": 1
+  },
+  "md5": "f3a3994c3af6cf4f63da980d5d66c4db",
+  "name": "libpng",
+  "noarch": null,
+  "platform": "linux",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 225757,
+  "subdir": "linux-64",
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/libpng-1.6.30-1.tar.bz2",
+  "version": "1.6.30",
+  "with_features_depends": {}
+}

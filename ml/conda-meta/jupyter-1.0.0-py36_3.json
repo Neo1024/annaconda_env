@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py36_3",
+  "build_number": 3,
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64",
+  "date": "2016-12-20",
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python 3.6*",
+    "qtconsole"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info"
+  ],
+  "fn": "jupyter-1.0.0-py36_3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/xgli/anaconda3/pkgs/jupyter-1.0.0-py36_3",
+    "type": 1
+  },
+  "md5": "1052273fd7373f34901fb0f74e2d4f9e",
+  "name": "jupyter",
+  "noarch": null,
+  "platform": "linux",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 4114,
+  "subdir": "linux-64",
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/jupyter-1.0.0-py36_3.tar.bz2",
+  "version": "1.0.0",
+  "with_features_depends": {}
+}

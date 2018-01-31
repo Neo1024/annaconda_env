@@ -1,0 +1,6 @@
+#!/home/xgli/anaconda3/envs/ml/bin/python
+if __name__ == '__main__':
+    import sys
+    import pip
+
+    sys.exit(pip.main())

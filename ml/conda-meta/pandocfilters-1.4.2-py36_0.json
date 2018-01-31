@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64",
+  "date": "2017-08-24",
+  "depends": [
+    "python 3.6*"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/pandocfilters.cpython-36.pyc",
+    "lib/python3.6/site-packages/pandocfilters-1.4.2-py3.6.egg-info",
+    "lib/python3.6/site-packages/pandocfilters.py"
+  ],
+  "fn": "pandocfilters-1.4.2-py36_0.tar.bz2",
+  "license": "BSD License",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/xgli/anaconda3/pkgs/pandocfilters-1.4.2-py36_0",
+    "type": 1
+  },
+  "md5": "fceb1604b218fef0a10fd9178a2dd814",
+  "name": "pandocfilters",
+  "noarch": null,
+  "platform": "linux",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 11812,
+  "subdir": "linux-64",
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/pandocfilters-1.4.2-py36_0.tar.bz2",
+  "version": "1.4.2",
+  "with_features_depends": {}
+}

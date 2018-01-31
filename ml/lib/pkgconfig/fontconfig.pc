@@ -1,0 +1,18 @@
+prefix=/home/xgli/anaconda3/envs/ml
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.12.1
+Requires:  freetype2
+Requires.private:  libxml-2.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -L/home/xgli/anaconda3/envs/ml/lib -lfreetype   -L/home/xgli/anaconda3/envs/ml/lib -lxml2 
+Cflags: -I${includedir}  -I/home/xgli/anaconda3/envs/ml/include/freetype2   -I/home/xgli/anaconda3/envs/ml/include/libxml2 -I/home/xgli/anaconda3/envs/ml/include 
